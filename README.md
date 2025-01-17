@@ -7,8 +7,6 @@ A brief description of your project, including what it does and why it's useful.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
