@@ -1,0 +1,334 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width, height=device-height" />
+            <title>Content is no longer available :(</title>
+    <link rel="icon" href="/dcicon.ico" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <style type="text/css">
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+                content: '';
+                content: none;
+            }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* ========== End of CSS Reset ========== */
+
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+        .ul-padding-left {
+            padding: 0px 0px 0px 80px;
+        }
+
+        .ul-padding {
+            padding: 0px 80px 0px 0px;
+        }
+
+        .img-middle-mobile {
+            display: none;
+        }
+
+        .img-middle {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .img-icon {
+            display: inline-block;
+            vertical-align: middle;
+            float: left;
+            padding: 0px 10px;
+            width: 86px;
+            height: 53px;
+        }
+
+        .header-1 {
+            font-size: 100px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: left;
+        }
+
+        .sub-heading {
+            font-size: 24px;
+            line-height: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            text-align: left;
+        }
+
+        .content {
+            font-size: 18px;
+            line-height: 24px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            text-align: left;
+            padding: 10px 0px;
+        }
+
+        .content-small {
+            font-size: 14px;
+            line-height: 24px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            text-align: left;
+            padding: 10px 0px;
+        }
+
+        .li-container {
+            min-height: 53px;
+            display: flex;
+            align-items: center;
+        }
+
+        .bold {
+            font-weight: 600;
+        }
+
+        .top-padding {
+            padding-top: 50px;
+        }
+
+        .float-logo {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .purple {
+            color: #7366ae;
+        }
+
+        .pink {
+            color: #f532e5;
+        }
+
+        .green {
+            color: #37bc9b;
+        }
+
+        .blue {
+            color: #3591cf;
+        }
+
+        .position-bottom1 {
+            float: left;
+            position: absolute;
+            bottom: 60px;
+        }
+
+        .position-bottom2 {
+            float: left;
+            position: absolute;
+            bottom: 30px;
+            left: 20%;
+        }
+
+        .position-publish {
+            position: relative;
+            bottom: 0;
+        }
+
+
+        .left-container {
+            background: #3591cf;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .middle-container {
+            background: #3591cf;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        .right-container {
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #707070;
+        }
+
+        /*.container-box	{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);}*/
+
+
+        /*==========  Non-Mobile First Method  ==========*/
+
+        /* Large Devices, Wide Screens */
+        @media only screen and (max-width : 1200px) {
+        }
+
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 992px) {
+            .img-middle {
+                display: none;
+            }
+
+            .img-middle-mobile {
+                display: block;
+                width: 100%;
+                padding-bottom: 50px;
+                background: #fff;
+            }
+
+            .header-1 {
+                font-size: 100px;
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            .sub-heading {
+                font-size: 24px;
+                line-height: 30px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                text-align: center;
+            }
+
+            .ul-padding {
+                padding: 0px;
+            }
+
+            .ul-padding-left {
+                padding: 0px 0px 50px 0px;
+            }
+
+            .position-publish {
+                position: relative;
+                bottom: 0;
+            }
+
+            .position-bottom1 {
+                position: inherit;
+                width: 100%;
+            }
+
+            .position-bottom2 {
+                position: inherit;
+                padding-bottom: 50px;
+            }
+        }
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 768px) {
+            .position-bottom2 {
+                position: relative;
+                bottom: 20px;
+                left: 0px;
+                padding-bottom: 50px;
+            }
+
+            .content {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+
+
+        /* Extra Small Devices, Phones */
+        @media only screen and (max-width : 480px) {
+        }
+
+        /* Custom, iPhone Retina */
+        @media only screen and (max-width : 320px) {
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Content -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Left -->
+            <div class="col-lg-4 text-center left-container">
+                <ul class="ul-padding-left">
+                    <li class="header-1">404</li>
+                    <li class="sub-heading"><span class="bold">Oops!</span>
+                        Looks like this content is not available!
+                    </li>
+                </ul>
+            </div><!-- End of Left -->
+            <!-- Middle -->
+            <div class="col-lg-4 text-center middle-container">
+                <img src="/images/fold-middle-desktop.jpg" class="img-middle" />
+                <img src="/images/fold-middle-mobile.jpg" class="img-middle-mobile" />
+            </div><!-- End of Middle -->
+            <!-- Right -->
+            <div class="col-lg-4 text-center right-container">
+                <ul class="ul-padding">
+                    <li class="sub-heading li-container">WHY?!?!?</li>
+                    <li class="content clear li-container">
+                        <img src="/images/icon-activated.png" class="img-icon" /> <span>
+                            The content isn't activated yet
+                            by the publisher
+                        </span>
+                    </li>
+                    <li class="content clear li-container"><img src="/images/icon-outdated.png" class="img-icon" /> <span>Outdated content</span></li>
+                    <li class="content clear li-container"><img src="/images/icon-mistyped.png" class="img-icon" /> A mistyped address</li>
+                    <div class="position-bottom1"><li class="content-small clear"><span class="purple position-publish">Publish Content.</span> <span class="pink"> &nbsp;Engage Users.</span> <span class="green"> &nbsp;Drive Results.</span></li></div>
+                    <div class="position-bottom2"><li class="content clear li-container"><a href="https://www.dcatalog.com/" style="text-decoration:none; color: #3591cf;">www.dcatalog.com</a></span></li></div>
+                </ul>
+            </div><!-- End of Right -->
+
+        </div>
+    </div><!-- End of Page Content -->
+
+</body>
+</html>

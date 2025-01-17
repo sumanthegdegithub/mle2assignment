@@ -1,0 +1,636 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+<head prefix="og:http://ogp.me/ns#">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+    <title>Page Not Found</title>
+    <meta property="og:title" content="Page Not Found" />
+    <meta property="og:site_name" content="Luminis.SiteName" />
+    <meta property="og:description" content="" />
+    <meta name="image" property="og:image" content="/-/media/abl/luminis/logos/luminis-logo-black.svg" />
+    <meta name="description" content="" />
+        <meta name="robots" content="INDEX, FOLLOW" />
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="last-modified" content="2024-08-28T19:30:41.000Z" />
+    <link rel="canonical" href="https://www.luminis.com/404" />
+            <link rel="alternate" hreflang="en" href="https://www.luminis.com/en/404" />
+            <link rel="alternate" hreflang="fr-CA" href="https://www.luminis.com/fr-ca/404" />
+            <link rel="alternate" hreflang="x-default" href="https://www.luminis.com/404" />
+
+    <meta property="og:url" content="https://www.luminis.com/404" />
+
+
+    
+<meta name="VIcurrentDateTime" content="638725796329835004" />
+<meta name="VirtualFolder" content="/" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+        <link rel="icon" href=/-/media/abl/shared-content/images/favicons/favicon-lum-16.png type="image/x-icon" />
+    
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" integrity="sha384-blOohCVdhjmtROpu8+CfTnUWham9nkX7P7OZQMst+RUnhtoY/9qemFAkIKOYxDI3" crossorigin="anonymous" />
+
+<link href="/assets/slick/slick.css" rel="stylesheet" />
+<link href="/assets/slick/slick-theme.css" rel="stylesheet" />
+<link href="/assets/css/transformicons.css" rel="stylesheet" />
+<link href="/Assets/css/luminis.css" rel="stylesheet" />
+
+
+    
+
+
+
+
+<script>
+    //How to buy "Find Location or Agent" event
+    var app = app || {};
+    app.sqlmaps = app.sqlmaps || {};
+    window.dataLayer = window.dataLayer || [];
+
+    var addLocationDataLayer = function (filterBubbleSelection, locationIdentifier, locationValue) {
+        var isFromProduct = false;
+        var locData = {};
+        if (isFromProduct) {
+            locData = {
+                'productName': '',
+                'productId': '',
+            }
+        }
+
+        if (filterBubbleSelection)
+            locData["filterBubbleSelection"] = filterBubbleSelection;
+        if (locationIdentifier)
+            locData["locationIdentifier"] = locationIdentifier;
+        if (locationValue)
+            locData["locationValue"] = locationValue;
+
+        window.dataLayer.push({
+            'event': 'find_location_or_agent',
+            'data': {
+                'locationData': locData
+            }
+        });
+    }
+
+    window.addEventListener('load', function () {
+        var processHowToBuyEvent = function () {
+            var filterBubbleSelection = '';
+            var locationIdentifier = '';
+            var locationValue = '';
+
+            locationValue = $(".how-to-buy-2__search div.form-group:visible input[type=text]").val();
+            var selectVal = $(".how-to-buy-2__search div.form-group:visible input[type=hidden]").val();
+            if (selectVal)
+                locationValue += ", " + selectVal;
+
+            locationIdentifier = $(".how-to-buy-2__search #dropdown-search-type div#dropdownSearchTypeButton").text().trim();
+            if (locationIdentifier === "Search By")
+                locationIdentifier = "";
+
+            filterBubbleSelection = $(".how-to-buy-2__filters input[type='radio']:checked").parent().attr("data-type").trim();
+
+            addLocationDataLayer(filterBubbleSelection, locationIdentifier, locationValue);
+        }
+
+        if ($("#how-to-buy-container").length) {
+            $(".how-to-buy-2__search #map-search-button").click(() => processHowToBuyEvent());
+            $('.how-to-buy-2__search .form-control').bind("enterKey", () => processHowToBuyEvent());
+        }
+    });
+</script>
+
+<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KV9GH9');</script><!-- End Google Tag Manager -->    <!-- Pinterest Tag -->
+    <script>!function(e){if(!window.pintrk){window.pintrk = function () {window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var n=window.pintrk;n.queue=[],n.version="3.0";var t=document.createElement("script");t.async=!0,t.src=e;var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");pintrk('load', '2612709865473', {em: ''});pintrk('page');</script>
+    <!-- end Pinterest Tag -->
+</head>
+<body ng-app="luminisApp">
+    <input type="hidden" id="currentLanguage" value="en" />
+
+
+    <!-- Pinterest (no script) Tag -->
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?event=init&tid=2612709865473&pd[em]=''>&noscript=1" /></noscript>
+    <!-- end Pinterest (no script) Tag -->
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV9GH9"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->        <script>
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+            'ItemId': '{8467A197-A6F6-4AA7-91C8-2BCD0BDCFCD5}',
+                'Culture': 'en',
+                'ItemVersion': '1',
+                'ItemName': '404'
+            });
+        </script>
+
+    
+
+
+
+    <link rel="stylesheet" href="https://static.cloud.coveo.com/searchui/v2.10089/css/CoveoFullSearch.css" />
+<link rel="stylesheet" href="https://static.cloud.coveo.com/coveoforsitecore/ui/v0.55.8/css/CoveoForSitecore.css" />
+<script class="coveo-script" type="text/javascript" src='https://static.cloud.coveo.com/searchui/v2.10089/js/CoveoJsSearch.Lazy.min.js'></script>
+<script class="coveo-for-sitecore-script" type="text/javascript" src='https://static.cloud.coveo.com/coveoforsitecore/ui/v0.55.8/js/CoveoForSitecore.Lazy.min.js'></script>
+<script type="text/javascript" src="https://static.cloud.coveo.com/searchui/v2.10089/js/cultures/en.js"></script>
+
+<div>
+
+
+    
+    
+    <!-- Resources -->
+    <div id="coveo3a949f41"
+         class="CoveoForSitecoreContext"
+                    data-sc-should-have-analytics-component='true'
+            data-sc-analytics-enabled='true'
+            data-sc-current-language='en'
+            data-prebind-sc-language-field-name='fieldTranslator'
+            data-sc-language-field-name='_language'
+            data-sc-labels='{&quot;Template&quot; : &quot;Template&quot; , &quot;Uniform resource identifier&quot; : &quot;URI&quot; , &quot;Created&quot; : &quot;Created&quot; , &quot;Updated By&quot; : &quot;Updated by&quot; , &quot;Language&quot; : &quot;Language&quot; , &quot;Last Time Modified&quot; : &quot;Last time modified.&quot; , &quot;Created By&quot; : &quot;Created by&quot; , &quot;Creation Time&quot; : &quot;Creation time.&quot; , &quot;Search is currently unavailable&quot; : &quot;Oops! Something went wrong on the server.&quot; , &quot;If the problem persists contact the administrator.&quot; : &quot;If the problem persists contact the administrator.&quot; , &quot;Ascending&quot; : &quot;Ascending&quot; , &quot;Descending&quot; : &quot;Descending&quot;}'
+            data-sc-maximum-age='900000'
+            data-sc-page-name='*'
+            data-sc-page-name-full-path='/sitecore/content/Luminis/Products/Detail/*'
+            data-sc-index-source-name='Coveo_web_index - abltech'
+            data-sc-is-in-experience-editor='false'
+            data-sc-is-user-anonymous='true'
+            data-sc-item-uri='sitecore://web/{2B9174E0-E2BD-4667-9D85-BA709DBDB238}?lang=en&amp;ver=1'
+            data-sc-item-id='2b9174e0-e2bd-4667-9d85-ba709dbdb238'
+            data-prebind-sc-latest-version-field-name='fieldTranslator'
+            data-sc-latest-version-field-name='_latestversion'
+            data-sc-rest-endpoint-uri='/coveo/rest'
+            data-sc-analytics-endpoint-uri='/coveo/rest/ua'
+            data-sc-site-name='Luminis'
+            data-sc-field-prefix='f'
+            data-sc-field-suffix='26781'
+            data-sc-prefer-source-specific-fields='false'
+            data-sc-external-fields='[{&quot;fieldName&quot;:&quot;permanentid&quot;,&quot;shouldEscape&quot;:false}]'
+            data-sc-source-specific-fields='[{&quot;fieldName&quot;:&quot;attachmentparentid&quot;},{&quot;fieldName&quot;:&quot;author&quot;},{&quot;fieldName&quot;:&quot;clickableuri&quot;},{&quot;fieldName&quot;:&quot;collection&quot;},{&quot;fieldName&quot;:&quot;concepts&quot;},{&quot;fieldName&quot;:&quot;date&quot;},{&quot;fieldName&quot;:&quot;filetype&quot;},{&quot;fieldName&quot;:&quot;indexeddate&quot;},{&quot;fieldName&quot;:&quot;isattachment&quot;},{&quot;fieldName&quot;:&quot;language&quot;},{&quot;fieldName&quot;:&quot;printableuri&quot;},{&quot;fieldName&quot;:&quot;rowid&quot;},{&quot;fieldName&quot;:&quot;size&quot;},{&quot;fieldName&quot;:&quot;source&quot;},{&quot;fieldName&quot;:&quot;title&quot;},{&quot;fieldName&quot;:&quot;topparent&quot;},{&quot;fieldName&quot;:&quot;topparentid&quot;},{&quot;fieldName&quot;:&quot;transactionid&quot;},{&quot;fieldName&quot;:&quot;uri&quot;},{&quot;fieldName&quot;:&quot;urihash&quot;}]'
+>
+    </div>
+    <script type="text/javascript">
+        var endpointConfiguration = {
+            itemUri: "sitecore://web/{2B9174E0-E2BD-4667-9D85-BA709DBDB238}?lang=en&amp;ver=1",
+            siteName: "Luminis",
+            restEndpointUri: "/coveo/rest"
+        };
+        if (typeof (CoveoForSitecore) !== "undefined") {
+            CoveoForSitecore.SearchEndpoint.configureSitecoreEndpoint(endpointConfiguration);
+            CoveoForSitecore.version = "5.0.1039.1";
+            var context = document.getElementById("coveo3a949f41");
+            if (!!context) {
+                CoveoForSitecore.Context.configureContext(context);
+            }
+        }
+    </script>
+</div>
+    <header>
+        
+<div class="overlay "></div>
+<a href="/" class="header-logo">
+    <svg width="124" height="26" viewBox="0 0 124 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_1819_10)">
+            <path d="M0 25.4875H11.7636V23.418H2.39628V9.14926H0V25.4875ZM31.9822 17.863V9.14926H29.5859V17.863C29.5859 21.8386 27.4891 23.6903 23.922 23.6903C20.3548 23.6903 18.258 21.8386 18.258 17.863V9.14926H15.8617V17.863C15.8617 23.1457 19.0749 25.7598 23.922 25.7598C28.769 25.7598 31.9822 23.1457 31.9822 17.863ZM54.3157 25.4875H56.712V9.14926H54.8149L47.4808 19.4968L40.1468 9.14926H38.2497V25.4875H40.646V13.8057L47.4808 22.9642L54.3157 13.8057V25.4875ZM63.6693 25.4875H66.0656V9.14926H63.6693V25.4875ZM87.4188 25.4875H89.0254V9.14926H86.6292V21.6208L74.5933 9.14926H72.9595V25.4875H75.3557V12.9615L87.4188 25.4875ZM95.9692 25.4875H98.3655V9.14926H95.9692V25.4875ZM118.316 13.7421C118.207 11.0554 116.347 8.87695 111.436 8.87695C106.526 8.87695 104.52 11.5455 104.52 14.0235C104.52 16.3109 105.99 17.7813 109.285 18.0536L113.832 18.3804C116.038 18.5438 116.61 19.5785 116.61 20.5588C116.61 22.2743 115.412 23.6903 112.035 23.6903C108.436 23.6903 107.002 22.4513 106.925 20.5316H104.52V20.5588C104.52 23.418 107.052 25.7598 112.035 25.7598C117.018 25.7598 119.006 22.7645 119.006 20.5588C119.006 18.3531 117.699 16.6104 113.969 16.3109L109.503 15.9841C107.569 15.8479 106.916 15.0038 106.916 14.0235C106.916 12.2808 108.631 10.9465 111.436 10.9465C114.577 10.9465 115.729 12.3488 115.893 13.7421H118.316Z" fill="#101820" />
+            <path d="M121.947 9.92079C122.178 9.92079 122.278 10.0206 122.278 10.1704C122.278 10.3338 122.16 10.4155 121.956 10.4155H121.583V9.92079H121.942H121.947ZM122.573 10.1704C122.573 9.87086 122.341 9.67571 121.996 9.67571H121.293V11.0917H121.588V10.6605H121.91L122.264 11.0917H122.6V11.069L122.328 10.7422C122.273 10.6696 122.214 10.6288 122.214 10.6288V10.6106C122.409 10.538 122.573 10.4155 122.573 10.1704ZM120.662 10.4019C120.662 9.71656 121.202 9.17195 121.892 9.17195C122.582 9.17195 123.122 9.71656 123.122 10.4019C123.122 11.0872 122.577 11.6318 121.892 11.6318C121.207 11.6318 120.662 11.0917 120.662 10.4019ZM120.367 10.4019C120.367 11.246 121.048 11.9268 121.892 11.9268C122.736 11.9268 123.417 11.246 123.417 10.4019C123.417 9.55771 122.736 8.87695 121.892 8.87695C121.048 8.87695 120.367 9.55771 120.367 10.4019Z" fill="#101820" />
+            <path d="M118.275 0H0V2.06951H118.275V0Z" fill="#101820" />
+        </g>
+        <defs>
+            <clipPath id="clip0_1819_10">
+                <rect width="123.417" height="25.76" fill="white" />
+            </clipPath>
+        </defs>
+    </svg>
+</a>
+<div class="navigation">
+    <div class="main-pages">
+<a href="/products" class="" >Products</a>        <a href="/inspiration" class="" >Inspiration</a>    </div>
+    <div class="search-logo">
+        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11.3137" cy="11.3137" r="7.5" transform="rotate(-45 11.3137 11.3137)" stroke="#101820" />
+            <path d="M16.6172 16.6169L21.2134 21.2131" stroke="#101820" />
+        </svg>
+    </div>
+    <div class="secondary-pages">
+<a href="/about-us" class="" >About</a>        <a href="/news" class="" >News</a>        <a href="/contact" class="" >Contact</a>                    <a id="headerlangswitch" href="/fr-ca/404" class="lang-switch">FR</a>
+    </div>
+    <div class="mobile-menu-header">
+        <a href="/"><img src="/-/media/abl/luminis/logos/luminis-logo-black.svg?la=en&amp;hash=AA1384FF29D7EA9214247B2DA3BD1BA8" class="mobile-menu-header-logo" alt="luminis logo" /></a>
+        <div class="cta grey">
+            <img src="/assets/img/icon-x-black.svg">
+        </div>
+    </div>
+</div>
+<div class="mobile-menu">
+    <div class="line"></div>
+</div>
+<div class="search-module">
+    <div class="search-line">
+        <div class="ab-global-searchbox-container">
+    
+    
+
+        <div id="_4C7A652E-1CA1-4B0D-8C93-ABE0512B5797"
+               data-search-interface-id='coveo670bcc2f'
+>
+
+            <div class='coveo-search-section'>
+                
+
+
+
+<script>
+    document.addEventListener("CoveoSearchEndpointInitialized", function() {
+        var searchboxElement = document.getElementById("_185F67BF-1D73-4AEE-9564-FDE5B0EB24D9");
+        searchboxElement.addEventListener("CoveoComponentInitialized", function() {
+            CoveoForSitecore.initSearchboxIfStandalone(searchboxElement, "/search");
+        });
+    })
+</script><div id="_185F67BF-1D73-4AEE-9564-FDE5B0EB24D9_container"
+       data-prebind-maximum-age='currentMaximumAge'
+  data-pipeline='Luminis-pipeline'
+>
+
+    <div id="_185F67BF-1D73-4AEE-9564-FDE5B0EB24D9"
+         class="CoveoSearchbox"
+           data-enable-omnibox='true'
+  data-prebind-maximum-age='currentMaximumAge'
+  data-pipeline='Luminis-pipeline'
+  data-placeholder='Search'
+  data-clear-filters-on-new-query='false'
+>
+        
+        
+<script type="text/javascript">
+    document.addEventListener("CoveoSearchEndpointInitialized", function() {
+        var componentId = "_185F67BF-1D73-4AEE-9564-FDE5B0EB24D9";
+        var componentElement = document.getElementById(componentId);
+
+        function showError(error) {
+                console.error(error);
+        }
+
+        function areCoveoResourcesIncluded() {
+            return typeof (Coveo) !== "undefined";
+        }
+
+        if (areCoveoResourcesIncluded()) {
+            var event = document.createEvent("CustomEvent");
+            event.initEvent("CoveoComponentInitialized", false, true);
+            
+            setTimeout(function() {
+                componentElement.dispatchEvent(event);
+            }, 0);
+        } else {
+            componentElement.classList.add("invalid");
+            showError("The Coveo Resources component must be included in this page.");
+        }
+    });
+</script>
+        <div class="CoveoForSitecoreExpressions"></div>
+        <div class="CoveoForSitecoreConfigureSearchHub" data-sc-search-hub="Search"></div>
+    </div>
+
+
+
+    <div class="CoveoForSitecoreAnalytics"
+                    data-sc-analytics-custom-metadata='{&quot;hostpageid&quot; : &quot;{F104DDA8-2074-484C-AC52-59B500E3A97A}&quot;}'
+            data-component-type='globalsearch'
+>
+    </div>
+<div>
+    
+
+        <div class="CoveoAnalytics"
+                            data-prebind-endpoint='coveoForSitecoreAnalyticsEndpoint'
+                data-prebind-anonymous='isAnonymous'
+                data-prebind-search-hub='currentPageName'
+                data-prebind-send-to-cloud='analyticsEnabled'
+                data-component-type='globalsearch'
+>
+        </div>
+</div>
+    <div>
+    
+    
+
+    <div class="CoveoForSitecoreLocalExpression"
+                    data-sc-filter-on-sitecore-context-database='true'
+            data-sc-filter-on-current-language='true'
+            data-sc-filter-on-latest-version='true'
+>
+    </div>
+</div>
+
+    <div>
+    
+    
+
+        <div class="CoveoForSitecoreFilterExpression"
+                                         data-sc-filter-scope-node='{&quot;advanced&quot; : {&quot;type&quot; : &quot;or&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;or&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;or&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;and&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;HasLayout&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;boolean&quot; , &quot;value&quot; : 0},&quot;fieldValues&quot; : [true]},&quot;right&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;site&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;Luminis&quot;]}},&quot;right&quot; : {&quot;type&quot; : &quot;and&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;_template&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;68D7070A0D8248959EEA08DC14EFAC70&quot;]},&quot;right&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;productbrandsitename&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;Luminis&quot;]}}},&quot;right&quot; : {&quot;type&quot; : &quot;and&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;_template&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;752A91FCE8F241ABB633697F2BE3164B&quot;]},&quot;right&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;productbrandsitename&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;Luminis&quot;]}}},&quot;right&quot; : {&quot;type&quot; : &quot;and&quot; , &quot;left&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;_template&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;2C5DF5371C1D467CACD51A7221BB88A9&quot;]},&quot;right&quot; : {&quot;type&quot; : &quot;field&quot; , &quot;fieldName&quot; : &quot;productbrandsitename&quot; , &quot;operator&quot; : {&quot;name&quot; : &quot;==&quot; , &quot;value&quot; : 1},&quot;fieldValueType&quot; : {&quot;name&quot; : &quot;string&quot; , &quot;value&quot; : 3},&quot;fieldValues&quot; : [&quot;Luminis&quot;]}}}}'
+>
+        </div>
+</div>
+
+</div>
+
+            </div>
+        </div>
+</div>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+
+            if (Coveo.$('#coveo670bcc2f').length > 0) {
+                var externalComponentsSection = document.getElementById("_4C7A652E-1CA1-4B0D-8C93-ABE0512B5797");
+                     CoveoForSitecore.initExternalComponentsSection(externalComponentsSection);
+            }
+        });
+    </script>
+
+        <div class="cta search-close">
+            <img src="/assets/img/icon-x-white.svg">
+        </div>
+    </div>
+</div>
+    </header>
+
+    
+
+        <section  class="no-background-color-content-area  ">
+            <div class="container-fluid full-width pl-0 pr-0" >
+                <div class="row">
+                    <div class="col-12">
+<div style="margin:200px auto 200px auto; text-align:center;">
+
+<img src="/-/media/abl/shared-content/images/error-images/404.png?h=300&amp;w=300&amp;hash=04A5CEB87B90DC06361C3B8DCE78A8D1" style="vertical-align:middle;display:inline-block;height:300px; width:300px;margin-right:30px;opacity: 0.35;" alt="Page not found">
+
+<div style="display:inline-block;max-width:600px;padding:30px 0px 30px 0px;vertical-align:middle;">
+<h1 style="text-align:left;font-size: 40px; font-weight: 300;line-height:1.1em !important;letter-spacing:-2px;">PAGE NOT FOUND</h1>
+<div style="text-align:left;font-size:18px;font-weight:400;margin-top:10px;">Sorry, it seems you were trying to access a page that doesn't exist. Please check the spelling of the URL you were trying to access and try again, or go to another section of the site via the navigation at the top of this page.</div>
+</div>
+
+</div>                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <footer>
+        
+
+<div class="red-section">
+    <div class="subscribe">
+        <div class="wrap">
+            <div class="title">Subscribe to receive updates</div>
+            <div class="subtitle">Inspiration, product updates, news and more!</div>
+        </div>
+    </div>
+    <div class="newsletter">
+        <iframe src="https://www2.acuitybrands.com/l/456272/2024-10-16/31vmgyr" width="100%" height="200" type="text/html" frameborder="0" allowTransparency="true" style="border: 0; overflow:hidden" scrolling="no"></iframe>
+    </div>
+</div>
+<div class="black-section">
+    <div class="logo-column">
+        <div class="logo">
+            <img src="/-/media/abl/luminis/logos/luminis-logo-white.svg" alt="luminis logo" />
+            <div>
+	260 Labrosse<br/>
+	Pointe Claire QC H9R 5L5<br/>
+	(514) 683-3883
+</div>
+        </div>
+        <div class="copyright">
+            <div>
+                <img src="/-/media/abl/luminis/logos/logo-acuity-brands.png" alt="acuity brands logo">
+            </div>
+            <div>&#169; 2024 Acuity Brands Lighting, Inc. All rights reserved</div>
+        </div>
+    </div>
+    <div class="link-columns">
+        <div class="link-column">
+                    <ul>
+                                <li>
+<a href="/products" class="" aria-label="" >Products</a>                                </li>
+                                <li>
+<a href="/inspiration" class="" aria-label="" >Inspiration</a>                                </li>
+                                <li>
+<a href="/about-us" class="" aria-label="" >About</a>                                </li>
+                                <li>
+<a href="/news" class="" aria-label="" >News</a>                                </li>
+                                <li>
+<a href="/careers" class="" aria-label="" >Careers</a>                                </li>
+                                <li>
+<a href="/contact" class="" aria-label="" >Contact</a>                                </li>
+                                <li>
+<a href="https://www.acuitybrands.com/support/warranty/terms-and-conditions" class="" target="_blank" aria-label="" >Warranty</a>                                </li>
+                    </ul>
+        </div>
+        <div class="link-column">
+                    <ul>
+                                <li>
+<a href="https://www.facebook.com/pages/Luminis/241528322612710?acrto=https://luminis.com/" class="" target="_blank" aria-label="Navigate to external site" title="Facebook" >FACEBOOK</a>                                </li>
+                                <li>
+<a href="http://www.linkedin.com/company/luminis_2?trk=tabs_biz_home?acrto=https://luminis.com/" class="" target="_blank" aria-label="Navigate to external site" title="LinkedIn" >LINKEDIN</a>                                </li>
+                                <li>
+<a href="https://www.instagram.com/luminis.lighting/?hl=en?acrto=https://luminis.com/" class="" target="_blank" aria-label="Navigate to external site" title="Instagram" >INSTAGRAM</a>                                </li>
+                                <li>
+<a href="https://www.youtube.com/channel/UCeRj2sVRWzVPxBjRFmrasuw?acrto=https://luminis.com/" class="" target="_blank" aria-label="Navigate to external site" title="YouTube" >YOUTUBE</a>                                </li>
+                                <li>
+<a href="https://twitter.com/LuminisLighting?acrto=https://luminis.com/" class="" target="_blank" aria-label="Navigate to external site" title="X Formerly Twitter" >X FORMERLY TWITTER</a>                                </li>
+                    </ul>
+        </div>
+    </div>
+</div>
+<div class="bottom-section">
+    <div class="bottom-links">
+<a href="https://www.acuitybrands.com/site-terms" class="" target="_blank" aria-label="" >SITE TERMS</a><a href="https://www.acuitybrands.com/privacy-statement" class="" target="_blank" aria-label="" >PRIVACY STATEMENT</a><a href="https://submit-irm.trustarc.com/services/validation/04276480-26cb-4cd6-acd5-e7b08cb11a1f" class="" target="_blank" aria-label="" >DO NOT SELL OR SHARE MY PERSONAL INFORMATION</a><a href="https://submit-irm.trustarc.com/services/validation/93ef0a9f-35b3-49ec-9a3d-c524dab9e25c" class="" target="_blank" aria-label="" >EXERCISE MY RIGHTS</a>                    <a id="footerlangswitch" href="/fr-ca/404" class="lang">FR</a>
+    </div>
+</div>
+<!-- instanceID W_574 -->
+
+        <script type="text/javascript">
+            var searchPageInterface = ".CoveoSearchInterface.ablSearch.search-results.v2-search-luminis-products";
+var nonSearchPageInterface = "#_4C7A652E-1CA1-4B0D-8C93-ABE0512B5797";
+
+document.addEventListener("DOMContentLoaded", function () {
+
+//**********************************************************************************************************
+// --- NOTE --- Leaving this code here in case Marketing decides to go back to auto-closing the Global Searchbox window
+//     const searchModule = document.querySelector('.search-module');
+
+//     document.addEventListener('click', (event) => {
+//          const withinBoundaries = event.composedPath().includes(searchModule);
+
+//          if (!withinBoundaries && searchModule.classList.contains('active')) {
+
+//              //Trigger the onclick event to mimic user clicking the "X" button so we can close search window
+//              document.querySelector('header .search-module .search-close').onclick();
+//          }
+//    })
+
+//**********************************************************************************************************
+   Coveo.$(searchPageInterface).on('buildingQuerySuggest', function (e, args) {
+
+       updateOmniboxBuildingQuerySuggest();
+  });
+
+//**********************************************************************************************************
+   Coveo.$(nonSearchPageInterface).on('buildingQuerySuggest', function (e, args) {
+
+       updateOmniboxBuildingQuerySuggest();
+  });
+
+
+//**********************************************************************************************************
+   Coveo.$(searchPageInterface).on('querySuggestSuccess', function (e, args) {
+
+//         updateOmniboxForQuerySuggestSuccess(searchPageInterface, args);
+         updateOmniboxForQuerySuggestSuccess(nonSearchPageInterface, args);
+  });
+
+//**********************************************************************************************************
+   Coveo.$(nonSearchPageInterface).on('querySuggestSuccess', function (e, args) {
+         updateOmniboxForQuerySuggestSuccess(nonSearchPageInterface, args);
+  });
+
+//**********************************************************************************************************
+   Coveo.$(nonSearchPageInterface).on('querySuggestRendered', function (e, args) {
+
+           updateOmniboxAfterQuerySuggestRendered(nonSearchPageInterface);
+   });
+
+//*************************
+}); //End addEventListener
+//******************************
+
+//***************************************************************************************************           
+function updateOmniboxBuildingQuerySuggest() {
+        var omniAddon = $('#omniaddon'); 
+        var magicBoxSuggest = $('.CoveoSearchbox .CoveoOmnibox .magic-box-suggestions');
+
+        omniAddon.removeClass('hidden');
+      
+       magicBoxSuggest.addClass("search-display");
+       magicBoxSuggest.append(omniAddon );
+}
+
+//***************************************************************************************************           
+function updateOmniboxForQuerySuggestSuccess(searchInterfaceClass, args) {
+         //console.log("omnibox query suggest");
+
+       var omniBox = Coveo.get($(searchInterfaceClass + " .CoveoOmnibox")[0], Coveo.Omnibox);
+  
+       if(omniBox) {
+            var searchKeyword = omniBox?.magicBox?.displayedResult?.input;
+
+            args.completions.forEach(completionResult => {
+
+                     if(omniBox.magicBox.displayedResult.input.length > 0) {
+
+                            //Ex.  need to highlight "blt" in 2blt2, we have to set highlighted value to "{2}blt{2}"
+                            completionResult.highlighted = '{' + completionResult.expression.replace(searchKeyword, '}' + searchKeyword + '{')  + '}';
+                      } else {
+                            completionResult.highlighted = '{' + completionResult.expression  + '}' ;
+                      }
+
+            });
+       }
+}
+
+//***************************************************************************************************           
+function updateOmniboxAfterQuerySuggestRendered(searchInterfaceClass) {
+        var magicBoxSuggest = $('.CoveoSearchbox .CoveoOmnibox .magic-box-suggestions');
+        var coveoMBoxSuggest = $('.CoveoSearchbox .CoveoOmnibox .magic-box-suggestions .coveo-magicbox-suggestions');
+      
+       coveoMBoxSuggest.addClass("dynamic-results");
+
+
+       $('.CoveoSearchbox .CoveoOmnibox .magic-box-suggestions .coveo-magicbox-suggestions .magic-box-suggestion').each(function() {
+                this.classList.add('underline-link');
+        });
+
+        var omniBox = Coveo.get($(searchInterfaceClass + " .CoveoOmnibox")[0], Coveo.Omnibox);
+
+        if( omniBox && omniBox.magicBox.displayedResult.input.length > 0 ) {
+                //$('.CoveoSearchbox .CoveoOmnibox .magic-box-suggestions .omni-addon').addClass('has-keyword-search');
+                magicBoxSuggest.addClass("expand");
+        }
+        else {
+                //magicBoxSuggest.prepend($('.omni-addon-suggest-container').clone().get(0)); 
+                magicBoxSuggest.removeClass("expand");
+        }
+}
+
+        </script>
+            <div class="single-text-column">
+                <div id="omniaddon" class="omni-addon suggested hidden">
+<div class="block">
+<div class="block-title">Trending</div>
+<div>
+<a href="https://luminis.com/about-us/brand-evolution" class="underline-link">Brand Refresh</a>
+<a href="https://luminis.com/products/family/syrios-pro" class="underline-link">New Product: Syrios Pro</a>
+<a href="https://luminis.com/inspiration" class="underline-link">Get Inspired</a>
+<a href="https://luminis.com/en/news" class="underline-link">News</a></div>
+</div>
+</div>
+            </div>
+
+
+        <script type="text/javascript">
+                    document.addEventListener("DOMContentLoaded", function () {
+
+               //   console.log("inside beforeInitialization - Search Hub");
+                var coveoResultList = $( ".CoveoResultList");
+                var coveoRec = $( ".CoveoRecommendation");
+
+                //Only execute on non-search pages.
+                if ( coveoResultList.length > 0 && coveoRec.length == 0  ) {
+                    return;
+                }
+                  
+                 var siteName = $( ".CoveoForSitecoreContext" ).data("sc-site-name");
+                 var origHubName = $( ".CoveoForSitecoreConfigureSearchHub" ).data("sc-search-hub");
+                 var newHubName = siteName + "-" + origHubName;
+
+                  $( ".CoveoForSitecoreConfigureSearchHub" ).attr("data-sc-search-hub", newHubName);
+                  $( ".CoveoAnalytics" ).attr("data-search-hub", newHubName);
+
+                 console.log("SearchHub Updated  attr=> " + $( ".CoveoForSitecoreConfigureSearchHub" ).attr("data-sc-search-hub") );
+
+        });
+
+
+
+
+        </script>
+
+    </footer>
+
+
+    <input type="hidden" id="docReadyNotifyTitle" value="&lt;strong&gt;Zip File Ready&lt;/strong&gt;&lt;br/&gt;" />
+    <input type="hidden" id="docReadyNotifyMessage" value="Your zip file for &lt;em&gt;[title]&lt;/em&gt; is ready, please click to download." />
+    <input type="hidden" id="runPolling" value="true" />
+    <input type="hidden" id="isAnonymous" value="True" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+
+<script src="https://unpkg.com/split-type"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+<script src="/bundles/luminisScripts?v=QAXVAv12CY1vl6jeYEvYrx5K9kpPbX-qI1ao31Zf75M1"></script>
+
+
+
+
+
+</body>
+</html>
